@@ -24,6 +24,5 @@ fn foo2() -> impl Future<Output = usize> {
         read_to_string("file4").await; // wait here
         println!("foo2");
         0
-
     }
 }
